@@ -33,9 +33,9 @@ Let:
 
 The **maximum theoretical speedup** is:
 
-[
+$$
 S(N) = \frac{1}{(1 - P) + \frac{P}{N}}
-]
+$$
 
 This is not a performance estimate. It is a **hard upper bound** assuming:
 
@@ -46,11 +46,13 @@ This is not a performance estimate. It is a **hard upper bound** assuming:
 
 Any real system performs **worse**.
 
-As ( N \to \infty ):
+$$
+\text{As }  ( N \to \infty ):
+$$
 
-[
+$$
 \lim_{N \to \infty} S(N) = \frac{1}{1 - P}
-]
+$$
 
 This is the most important result. If 10% of your workload is serial, your speedup is **capped at 10×**, regardless of core count.
 

@@ -11,7 +11,7 @@ In [references](#references), the materials are mapped categorically and has spe
 
 In [softwares](#softwares), the necessary softwares to be installed for this project are given. Scroll to the end of the section to see the bare minimum ones
 
-All the files in the [**notes**](#notes/) folder will have ChatGPT generated content, where it assumes the role of the tutor. 
+All the files in the [**notes**](notes/) folder will have ChatGPT generated content, where it assumes the role of the tutor. 
 
 Use WSL - Ubuntu 22.04 here to ensure compatibiltiy and interview preparedness
 
